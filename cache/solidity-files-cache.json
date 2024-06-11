@@ -1,0 +1,40 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "D:\\Desktop Windows\\GHW PROJECTS\\smart-contract-mlh\\contracts\\contract.sol": {
+      "lastModificationDate": 1718131567740,
+      "contentHash": "72da04a2d6da952913871879c2bd1cfa",
+      "sourceName": "contracts/contract.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.3"
+      ],
+      "artifacts": [
+        "RentPaymentSystem"
+      ]
+    }
+  }
+}

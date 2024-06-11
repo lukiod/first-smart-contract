@@ -1,0 +1,59 @@
+PS D:\Desktop Windows\GHW PROJECTS\smart-contract-mlh> npx install --save-dev@nomiclabs/hardhat-ethers "ethers@^5.0.0"
+npm ERR! could not determine executable to run
+
+npm ERR! A complete log of this run can be found in: C:\Users\mohak\AppData\Local\npm-cache\_logs\2024-06-11T20_17_05_702Z-debug-0.log
+PS D:\Desktop Windows\GHW PROJECTS\smart-contract-mlh> npm install --save-dev hardhat
+>> npm install --save ethers@5.0.0
+>> 
+
+up to date, audited 296 packages in 3s
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+changed 1 package, and audited 296 packages in 3s
+
+66 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS D:\Desktop Windows\GHW PROJECTS\smart-contract-mlh> npx install --save-dev@nomiclabs/hardhat-ethers "ethers@^5.0.0"
+npm ERR! could not determine executable to run
+
+npm ERR! A complete log of this run can be found in: C:\Users\mohak\AppData\Local\npm-cache\_logs\2024-06-11T20_18_02_360Z-debug-0.log
+PS D:\Desktop Windows\GHW PROJECTS\smart-contract-mlh>
+
+                                                       npx install --save-dev @nomiclabs/hardhat-ethers "ethers@^5.0.0"
+11T20_18_36_079Z-debug-0.log
+PS D:\Desktop Windows\GHW PROJECTS\smart-contract-mlh> npm install dotenv --save
+
+up to date, audited 296 packages in 911ms
+
+66 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS D:\Desktop Windows\GHW PROJECTS\smart-contract-mlh> npx install --save-dev @nomiclabs/hardhat-ethers "ethers@^5.0.0"
+npm ERR! could not determine executable to run
+
+npm ERR! A complete log of this run can be found in: C:\Users\mohak\AppData\Local\npm-cache\_logs\2024-06-11T20_20_05_838Z-debug-0.log
+PS D:\Desktop Windows\GHW PROJECTS\smart-contract-mlh> npx hardhat compile
+√ Help us improve Hardhat with anonymous crash reports & basic usage data? (Y/n) · y
+Downloading compiler 0.7.3
+contracts/contract.sol: Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing "SPDX-License-Identifier: <SPDX-License>" to each source file. Use "SPDX-License-Identifier: UNLICENSED" for non-open-source code. Please see https://spdx.org for more information.
+
+Compiled 1 Solidity file successfully (evm target: istanbul).
+PS D:\Desktop Windows\GHW PROJECTS\smart-contract-mlh> npx hardhat run scripts/deploy.js --network mainnet
+                                                                                                         Error: insufficient funds for intrinsic transaction cost [ See: https://links.ethers.org/v5-errors-INSUFFIICIENT_FUNDS ] (error={"name":"ProviderError","_stack":"ProviderError: insufficient funds for gas * price + value: balance 0, tx cost 9231564431253888, overshot 9231564431253888\n    at HttpProvider.request (D:\\Desktop Windows\\GHW PROJECTS\\smart-contract-mlh\\node_modules\\hardhat\\src\\internal\\core\\providers\\hts\src.ts\json-rpc-provider.ts:98:16)
+    at D:\Desktop Windows\GHW PROJECTS\smart-contract-mlh\node_modules\@ethersproject\providers\src.ts\json-rpc-provider.ts:265:24
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  reason: 'insufficient funds for intrinsic transaction cost',
+  code: 'INSUFFICIENT_FUNDS',
+  error: ProviderError: insufficient funds for gas * price + value: balance 0, tx cost 9231564431253888, overshot 9231564431253888
+      at HttpProvider.request (D:\Desktop Windows\GHW PROJECTS\smart-contract-mlh\node_modules\hardhat\src\internal\core\providers\http.ts:96:21)
+      at processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at EthersProviderWrapper.send (D:\Desktop Windows\GHW PROJECTS\smart-contract-mlh\node_modules\@nomiclabs\hardhat-ethers\src\internal\ethers-provider-wrapper.ts:13:20),   
+  method: 'sendTransaction',
+  transaction: undefined
+}
+PS D:\Desktop Windows\GHW PROJECTS\smart-contract-mlh>
